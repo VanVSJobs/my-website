@@ -1,0 +1,23 @@
+.imageContainer {
+  height: 100 vh;
+}
+
+.banner-text {
+  bottom: 0;
+  position: absolute;
+}
+
+.subtitle {
+  color: white;
+  text-transform: none;
+}
+.title {
+  color: white;
+  font-weight: 800;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.image-container {
+  height: 100 vh;
+}

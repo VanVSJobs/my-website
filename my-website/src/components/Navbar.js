@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "../styles/StyledNavbar.css";
+import "../styles/StyledNavbar.scss";
 
 const Navbar = () => {
   return (
@@ -27,22 +27,7 @@ const Navbar = () => {
                 </i>
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                to="/about"
-                className={({ isActive }) =>
-                  isActive ? "nav-links active" : "nav-links"
-                }
-              >
-                <i className={"button"}>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  About
-                </i>
-              </NavLink>
-            </li>
+
             <li className="nav-item">
               <NavLink
                 to="/contact"

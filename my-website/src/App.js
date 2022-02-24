@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { Home, Projects, Resume, About, Contact } from "./pages/index";
+import { Home, Projects, Resume, Contact } from "./pages/index";
 
 import { Navbar } from "./components";
 
@@ -12,7 +12,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />

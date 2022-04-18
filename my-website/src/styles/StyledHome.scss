@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 95vh;
 }
 
 .card {
@@ -28,4 +28,9 @@ body {
 
 .body-container {
   margin: 4rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
 }

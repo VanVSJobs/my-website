@@ -1,0 +1,15 @@
+$image: "https://vans-website.s3.amazonaws.com/background1.jpg";
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.card {
+  margin: 3rem;
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+}

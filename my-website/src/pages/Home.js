@@ -3,6 +3,7 @@ import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
+
 import { motion } from "framer-motion";
 
 import "../styles/StyledHome.scss";
@@ -68,6 +69,16 @@ const Home = () => {
                 well.
               </Typography>
             </div>
+            <div className="body-container">
+              <Typography
+                variant="body1"
+                color="black"
+                className="body-typography"
+              >
+                &#9733; At the moment, I'm on my way to enhance my career on
+                database by studying for DBA certificates.
+              </Typography>
+            </div>
           </CardContent>
         </Card>
       </motion.div>
@@ -115,8 +126,11 @@ const Home = () => {
                 className="body-typography"
               >
                 &#9733; I also enjoy reading memes. I'm proudly to be the one
-                who suggested Dr. Hamilton to use this meme for his Analysis
-                class.
+                who suggested Dr. Hamilton to use{" "}
+                <a href="https://i.kym-cdn.com/entries/icons/facebook/000/037/334/Kowalski.jpg">
+                  this meme
+                </a>{" "}
+                for his Analysis class.
               </Typography>
             </div>
             <div className="body-container">
@@ -129,6 +143,32 @@ const Home = () => {
                 agree that I'm funny without bribing. Below is a picture of my
                 dog when he wants to go for a walk.
               </Typography>
+            </div>
+            <div className="image-container">
+              <img
+                src="https://vans-website.s3.amazonaws.com/1.jpg"
+                alt="Error with the link"
+                width="100"
+                height="100"
+              />
+              <img
+                src="https://vans-website.s3.amazonaws.com/2.jpg"
+                alt="Error with the link"
+                width="100"
+                height="100"
+              />
+              <img
+                src="https://vans-website.s3.amazonaws.com/3.jpg"
+                alt="Error with the link"
+                width="100"
+                height="100"
+              />
+              <img
+                src="https://vans-website.s3.amazonaws.com/4.jpg"
+                alt="Error with the link"
+                width="100"
+                height="100"
+              />
             </div>
           </CardContent>
         </Card>

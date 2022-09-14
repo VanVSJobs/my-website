@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-  margin: 3rem;
+  margin: 3vh;
   height: 60vh;
   width: 30vw;
   display: flex;
@@ -28,6 +28,7 @@ body {
 
 .body-container {
   margin: 4rem;
+  display: flex;
 }
 
 .image-container {

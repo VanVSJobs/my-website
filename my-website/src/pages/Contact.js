@@ -13,48 +13,53 @@ const Home = () => {
     <div className="cards-container">
       <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
         <Card className="card" sx={{ backgroundColor: "#a6adde" }}>
-          <CardContent>
-            <div className="body-container">
-              <Typography
-                variant="body1"
-                color="black"
-                className="body-typography"
+          <CardContent className="card-content">
+            <Typography
+              variant="body1"
+              color="black"
+              className="body-typography"
+              display="block"
+            >
+              🧔 : Van Tran
+            </Typography>
+
+            <Typography
+              variant="body1"
+              color="black"
+              className="body-typography"
+            >
+              ✉ : wadvan987@gmail.com
+            </Typography>
+            <Typography
+              variant="body1"
+              color="black"
+              className="body-typography"
+            >
+              📲 : +1 (825)-365-8447
+            </Typography>
+            <Typography
+              variant="body1"
+              color="black"
+              className="body-typography"
+            >
+              <FaGithub /> :{" "}
+              <a className="small-link" href="https://github.com/van31337">
+                /van31337/
+              </a>
+            </Typography>
+            <Typography
+              variant="body1"
+              color="black"
+              className="body-typography"
+            >
+              <FaLinkedin /> :{" "}
+              <a
+                className="small-link"
+                href="https://www.linkedin.com/in/van-tran-1324b1174/"
               >
-                🧔 : Van Tran
-              </Typography>
-              <Typography
-                variant="body1"
-                color="black"
-                className="body-typography"
-              >
-                ✉ : wadvan987@gmail.com
-              </Typography>
-              <Typography
-                variant="body1"
-                color="black"
-                className="body-typography"
-              >
-                📲 : +1 (825)-365-8447
-              </Typography>
-              <Typography
-                variant="body1"
-                color="black"
-                className="body-typography"
-              >
-                <FaGithub /> :{" "}
-                <a href="https://github.com/van31337">/van31337/</a>
-              </Typography>
-              <Typography
-                variant="body1"
-                color="black"
-                className="body-typography"
-              >
-                <FaLinkedin /> :{" "}
-                <a href="https://www.linkedin.com/in/van-tran-1324b1174/">
-                  /van-tran-1324b1174/
-                </a>
-              </Typography>
-            </div>
+                /van-tran-1324b1174/
+              </a>
+            </Typography>
           </CardContent>
         </Card>
       </motion.div>

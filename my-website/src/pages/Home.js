@@ -29,9 +29,13 @@ const Home = () => {
                 variant="body1"
                 color="black"
                 className="body-typography"
-                fontSize={12}
+                fontSize={16}
               >
-                &#9733; lorem ipsum
+                &#9733; I have an honour Computer Science degree from University
+                of Calary and DBA certificate from SAIT. I have background in
+                Maths, Stat, and Data Science. I'm highly interested in data
+                related fields such as Database Administrator, Machine Learning,
+                Data Analyst,...
               </Typography>
             </div>
             <div className="body-container">
@@ -39,9 +43,11 @@ const Home = () => {
                 variant="body1"
                 color="black"
                 className="body-typography"
-                fontSize={12}
+                fontSize={16}
               >
-                &#9733; lorem ipsum
+                &#9733; I'm passionate about my work and I know how to get my
+                job done. I'm honest, detail-oriented, and open to criticism. I
+                run toward challenges because I can learn the most from them.
               </Typography>
             </div>
           </CardContent>
@@ -66,9 +72,13 @@ const Home = () => {
                 variant="body1"
                 color="black"
                 className="body-typography"
-                fontSize={12}
+                fontSize={16}
               >
-                &#9733;lorem ipsum
+                &#9733; Here are some of the most common adjectives my friends
+                use to describe me: hillarious, very friendly, and quite
+                open-minded. I also like jokes, puns, and especially memes. I
+                also love animals. I usually say that "if not friend, why friend
+                shaped". Here are some photos of my lovely dog:
               </Typography>
             </div>
             <div className="image-container">

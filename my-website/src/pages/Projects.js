@@ -22,8 +22,20 @@ const Projects = () => {
               color="black"
               fontSize={30}
             >
-              Exhibit A
+              Spotify API
             </Typography>
+            <div className="body-container">
+              <Typography
+                variant="body1"
+                color="black"
+                className="body-typography"
+                fontSize={12}
+              >
+                I created a simple server that grab information of a given
+                account and then display that information using spotify theme.
+              </Typography>
+            </div>
+            <div className="body-container"></div>
           </CardContent>
         </Card>
       </motion.div>
@@ -39,8 +51,21 @@ const Projects = () => {
               color="black"
               fontSize={30}
             >
-              Exhibit B
+              Colab Notebook
             </Typography>
+            <div className="body-container">
+              <Typography
+                variant="body1"
+                color="black"
+                className="body-typography"
+                fontSize={12}
+              >
+                A set of collection notebook exploring topics from basic linear
+                algebra to creating almost a hundred of models with different
+                scale to solve different problems
+              </Typography>
+            </div>
+            <div className="body-container"></div>
           </CardContent>
         </Card>
       </motion.div>

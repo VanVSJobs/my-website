@@ -28,7 +28,7 @@ const Home = () => {
               color="black"
               className="body-typography"
             >
-              ✉ : wadvan987@gmail.com
+              ✉ : <a href="mailto:wadvan987@gmail.com">wadvan987@gmail.com</a>
             </Typography>
             <Typography
               variant="body1"

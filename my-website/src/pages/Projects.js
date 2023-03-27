@@ -81,8 +81,21 @@ const Projects = () => {
               color="black"
               fontSize={30}
             >
-              Exhibit C
+              React Native chat apps
             </Typography>
+            <div className="body-container">
+              <Typography
+                variant="body1"
+                color="black"
+                className="body-typography"
+                fontSize={12}
+              >
+                I created an apps that is similar to WhatsApp that allows you to
+                char privately or in a group. It also allows you to send images,
+                emojis, and other stuff. This is a way for me to learn React
+                Native
+              </Typography>
+            </div>
           </CardContent>
         </Card>
       </motion.div>

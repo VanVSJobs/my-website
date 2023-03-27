@@ -11,7 +11,7 @@ import "../styles/StyledHome.scss";
 const Home = () => {
   return (
     <div className="cards-container">
-      <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
+      <motion.div className="card-container" whileHover={{ scale: 1.05 }}>
         <Card className="card" sx={{ backgroundColor: "#a6adde" }}>
           <CardContent>
             <Typography
@@ -54,7 +54,7 @@ const Home = () => {
         </Card>
       </motion.div>
 
-      <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
+      <motion.div className="card-container" whileHover={{ scale: 1.05 }}>
         <Card className="card" sx={{ backgroundColor: "#a6adde" }}>
           <CardContent>
             <Typography

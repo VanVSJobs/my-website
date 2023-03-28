@@ -51,7 +51,7 @@ const MatrixBackground = () => {
       ref={canvasRef}
       style={{ position: "fixed", top: 0, left: 0, zIndex: -1 }}
       width={window.innerWidth}
-      height={window.innerHeight}
+      height={window.innerHeight * 1.1}
     />
   );
 };

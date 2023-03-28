@@ -12,24 +12,36 @@ const Projects = () => {
   return (
     <div className="cards-container-projects">
       <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
-        <Card className="card-projects" sx={{ backgroundColor: "#a6adde" }}>
+        <Card
+          className="card-projects"
+          sx={{
+            backgroundColor: "green",
+            opacity: "0.8",
+            backdropFilter: "blur(20px)",
+            border: "2px solid green",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
           <CardContent>
             <Typography
               className="card-title"
               gutterBottom
               variant="h3"
               component="div"
-              color="black"
               fontSize={30}
+              color="white"
+              display="block"
             >
               Spotify API
             </Typography>
             <div className="body-container">
               <Typography
                 variant="body1"
-                color="black"
+                color="white"
                 className="body-typography"
-                fontSize={12}
+                display="block"
+                fontSize={16}
               >
                 I created a simple server that grab information of a given
                 account and then display that information using spotify theme.
@@ -41,24 +53,36 @@ const Projects = () => {
       </motion.div>
 
       <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
-        <Card className="card-projects" sx={{ backgroundColor: "#a6adde" }}>
+        <Card
+          className="card-projects"
+          sx={{
+            backgroundColor: "green",
+            opacity: "0.8",
+            backdropFilter: "blur(20px)",
+            border: "2px solid green",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
           <CardContent>
             <Typography
               className="card-title"
               gutterBottom
               variant="h3"
               component="div"
-              color="black"
               fontSize={30}
+              color="white"
+              display="block"
             >
               Colab Notebook
             </Typography>
             <div className="body-container">
               <Typography
                 variant="body1"
-                color="black"
+                color="white"
                 className="body-typography"
-                fontSize={12}
+                display="block"
+                fontSize={16}
               >
                 A set of collection notebook exploring topics from basic linear
                 algebra to creating almost a hundred of models with different
@@ -71,24 +95,36 @@ const Projects = () => {
       </motion.div>
 
       <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
-        <Card className="card-projects" sx={{ backgroundColor: "#a6adde" }}>
+        <Card
+          className="card-projects"
+          sx={{
+            backgroundColor: "green",
+            opacity: "0.8",
+            backdropFilter: "blur(20px)",
+            border: "2px solid green",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
           <CardContent>
             <Typography
               className="card-title"
               gutterBottom
               variant="h3"
               component="div"
-              color="black"
               fontSize={30}
+              color="white"
+              display="block"
             >
               React Native chat apps
             </Typography>
             <div className="body-container">
               <Typography
                 variant="body1"
-                color="black"
+                color="white"
                 className="body-typography"
-                fontSize={12}
+                display="block"
+                fontSize={16}
               >
                 I created an apps that is similar to WhatsApp that allows you to
                 char privately or in a group. It also allows you to send images,
@@ -101,35 +137,84 @@ const Projects = () => {
       </motion.div>
 
       <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
-        <Card className="card-projects" sx={{ backgroundColor: "#a6adde" }}>
+        <Card
+          className="card-projects"
+          sx={{
+            backgroundColor: "green",
+            opacity: "0.8",
+            backdropFilter: "blur(20px)",
+            border: "2px solid green",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
           <CardContent>
             <Typography
               className="card-title"
               gutterBottom
               variant="h3"
               component="div"
-              color="black"
               fontSize={30}
+              color="white"
+              display="block"
             >
-              Exhibit D
+              This website
             </Typography>
+            <div className="body-container">
+              <Typography
+                variant="body1"
+                color="white"
+                className="body-typography"
+                display="block"
+                fontSize={16}
+              >
+                I made this website using React. I tried to make it as aethetic
+                as possible. Then I deployed it using AWS to host my website.
+              </Typography>
+            </div>
           </CardContent>
         </Card>
       </motion.div>
 
       <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
-        <Card className="card-projects" sx={{ backgroundColor: "#a6adde" }}>
+        <Card
+          className="card-projects"
+          sx={{
+            backgroundColor: "green",
+            opacity: "0.8",
+            backdropFilter: "blur(20px)",
+            border: "2px solid green",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
           <CardContent>
             <Typography
               className="card-title"
               gutterBottom
               variant="h3"
               component="div"
-              color="black"
               fontSize={30}
+              color="white"
+              display="block"
             >
-              Exhibit E
+              Travel Agency Expert
             </Typography>
+            <div className="body-container">
+              <Typography
+                variant="body1"
+                color="white"
+                className="body-typography"
+                display="block"
+                fontSize={16}
+              >
+                This is a simple application to store data for a travel agency.
+                The main thing to focus on this project is the database. I used
+                many technique to ensure that we minimize the damage when
+                hardware failure occurs. Also, we want to make sure the database
+                is optimized for fast transaction.
+              </Typography>
+            </div>
           </CardContent>
         </Card>
       </motion.div>

@@ -12,23 +12,35 @@ const Home = () => {
   return (
     <div className="cards-container">
       <motion.div className="card-container" whileHover={{ scale: 1.05 }}>
-        <Card className="card" sx={{ backgroundColor: "#a6adde" }}>
+        <Card
+          className="card"
+          sx={{
+            backgroundColor: "green",
+            opacity: "0.8",
+            backdropFilter: "blur(20px)",
+            border: "2px solid green",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
           <CardContent>
             <Typography
               className="card-title"
               gutterBottom
               variant="h3"
               component="div"
-              color="black"
               fontSize={30}
+              color="white"
+              display="block"
             >
               Professional
             </Typography>
             <div className="body-container">
               <Typography
                 variant="body1"
-                color="black"
+                color="white"
                 className="body-typography"
+                display="block"
                 fontSize={16}
               >
                 &#9733; I have an honour Computer Science degree from University
@@ -41,8 +53,9 @@ const Home = () => {
             <div className="body-container">
               <Typography
                 variant="body1"
-                color="black"
+                color="white"
                 className="body-typography"
+                display="block"
                 fontSize={16}
               >
                 &#9733; I'm passionate about my work and I know how to get my
@@ -55,23 +68,35 @@ const Home = () => {
       </motion.div>
 
       <motion.div className="card-container" whileHover={{ scale: 1.05 }}>
-        <Card className="card" sx={{ backgroundColor: "#a6adde" }}>
+        <Card
+          className="card"
+          sx={{
+            backgroundColor: "green",
+            opacity: "0.8",
+            backdropFilter: "blur(20px)",
+            border: "2px solid green",
+            borderRadius: "10px",
+            padding: "10px",
+          }}
+        >
           <CardContent>
             <Typography
               className="card-title"
               gutterBottom
-              variant="h5"
+              variant="h3"
               component="div"
-              color="black"
               fontSize={30}
+              color="white"
+              display="block"
             >
               Personal
             </Typography>
             <div className="body-container">
               <Typography
                 variant="body1"
-                color="black"
+                color="white"
                 className="body-typography"
+                display="block"
                 fontSize={16}
               >
                 &#9733; Here are some of the most common adjectives my friends

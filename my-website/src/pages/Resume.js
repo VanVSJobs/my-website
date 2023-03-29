@@ -2,11 +2,11 @@ import React from "react";
 
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
 
 import { motion } from "framer-motion";
-import PDFViewer from "react-pdf-js";
 import "../styles/StyledResume.scss";
+
+import { PDFViewer } from "../components";
 
 const Resume = () => {
   return (
@@ -23,7 +23,10 @@ const Resume = () => {
             padding: "10px",
           }}
         >
-          <CardContent></CardContent>
+          <CardContent>
+            <PDFViewer url="https://vans-website.s3.amazonaws.com/Awesome_CV.pdf" />
+            ;
+          </CardContent>
         </Card>
       </motion.div>
     </div>

@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
 import { motion } from "framer-motion";
-
+import PDFViewer from "react-pdf-js";
 import "../styles/StyledResume.scss";
 
 const Resume = () => {
@@ -23,19 +23,7 @@ const Resume = () => {
             padding: "10px",
           }}
         >
-          <CardContent>
-            <Typography
-              className="card-title"
-              gutterBottom
-              variant="h3"
-              component="div"
-              fontSize={30}
-              color="white"
-              display="block"
-            >
-              Cool resume lives here
-            </Typography>
-          </CardContent>
+          <CardContent></CardContent>
         </Card>
       </motion.div>
     </div>

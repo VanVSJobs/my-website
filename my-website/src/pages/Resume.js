@@ -11,12 +11,12 @@ import { PDFViewer } from "../components";
 const Resume = () => {
   return (
     <div className="cards-container-resume">
-      <motion.div className="card-container" whileHover={{ scale: 1.1 }}>
+      <motion.div className="card-container">
         <Card
           className="card-resume"
           sx={{
             backgroundColor: "green",
-            opacity: "0.8",
+            opacity: "1",
             backdropFilter: "blur(20px)",
             border: "2px solid green",
             borderRadius: "10px",

@@ -24,8 +24,10 @@ const Resume = () => {
           }}
         >
           <CardContent>
-            <PDFViewer url="https://vans-website.s3.amazonaws.com/Awesome_CV.pdf" />
-            ;
+            <div className="pdf-container">
+              <PDFViewer url="https://vans-website.s3.amazonaws.com/Awesome_CV.pdf" />
+              ;
+            </div>
           </CardContent>
         </Card>
       </motion.div>
